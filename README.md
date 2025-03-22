@@ -1,3 +1,19 @@
+# A conversation Log Reader for the Alai Project
+
+## Instructions
+Clone the repo
+`git clone git@github.com:ari-kohan/conversation-log-reader.git`
+
+Create a .env file in the root of this directory. It should include two variables:
+```
+VITE_SUPABASE_URL='https://<your-project>.supabase.co'
+VITE_SUPABASE_ANON_KEY='<your-anon-key>'
+```
+
+Run the local website with `npm run dev` and go to the specified url.
+That's it!
+The website displays thelast hundred messages between the user and Al.
+
 # Vue 3 + TypeScript + Vite
 
 This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
